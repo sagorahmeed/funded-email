@@ -1,0 +1,367 @@
+
+@font-face {
+    font-family: 'Rubik', sans-serif;
+    src: url('./assets/fonts/Rubik.ttf');
+}
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+}
+table{
+    border-spacing: 0;
+}
+td{
+    padding: 0;
+}
+img{
+    border: 0;
+}
+.wrapper{
+    table-layout: fixed;
+    padding: 20px 0;
+}
+.webkit{
+    max-width: 540px;
+    background-color: #ffffff;
+}
+.table-header {
+    position: absolute;
+    top: 0;
+    height: 10px;
+    background:#FFB801;
+    border-radius: 2px;
+}
+.outer{
+    max-width: 600px;
+    border-spacing: 0;
+    font-family: 'Rubik', sans-serif;
+    color: #4a4a4a;
+    padding: 0 20px;
+}
+.email-logo{
+    margin: 35px 0;
+    width: 200px;
+    height: 37px;
+}
+.email-banner-desc{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-image{
+    width: 270.59px;
+    height: 179.31px;
+}
+.welcome-grettings{
+    font-size: 25px;
+    color: black;
+    font-family: 'Rubik', sans-serif;
+}
+.funded-letter{
+    color: #FFB801;
+}
+
+.next-letter{
+    color: black;
+}
+.confirmationheading{
+    color: #1e1e1e;
+    font-weight: 600;
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+}
+.confirmationtitle{
+    color: #515151;
+    font-weight: 400;
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    padding-bottom: 20px;
+    line-height: 24px;
+}
+
+.button-link{
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+}
+.confimationbtn{
+    width: 290px;
+    height: 60px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9b805;
+    border: 2px solid #f9b805;
+    color: white;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    font-family: 'Rubik', sans-serif;
+    transition: all 0.5s ease-in-out;
+}
+.confimationbtn:hover {
+    background-color: #c99300;
+    border: 2px solid #c99300;
+}
+.copytitle{
+    color: #515151;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+    line-height: 28px;
+}
+.copytitle:first-child{
+    padding-top: 30px;
+}
+.copytitle:last-child{
+    padding-bottom: 30px;
+}
+.copytitle-link{
+    color: #FFB801;
+    font-size: 15px;
+}
+.footer-desc{
+    background-color:#181816;
+    border-radius: 10px;
+}
+.footer{
+    text-align: center;
+    padding:30px 40px;
+}
+.footer-title{
+    color: white;
+    position: relative;
+    padding-bottom: 20px;
+    line-height: 24px;
+    font-size: 15px;
+    font-family: 'Rubik', sans-serif;
+}
+.footer-title::after{
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    background-color: #5a5858;
+    bottom: 0;
+    left: 0;
+}
+.icon-link:hover{
+    background-color: #e4a507;
+    color: white;
+    transition: all 0.2s ease-in-out;
+}
+.icon-link{
+    text-decoration: none;
+    background-color: #FFB801;
+    color: #181816;
+    height:30px;
+    width: 30px;
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    font-size: 14px;
+    transition: all 0.2s ease-in-out;
+    margin: 0 5px;
+}
+.icon-link-icon {
+    width: 15px;
+    height: 15px;
+}
+h1, h2, h3, h4, h5, h6, p, a {
+    font-family: 'Rubik', sans-serif;
+}
+.money-section-heading{
+    font-size: 18px;
+    font-weight: 600;
+    font-style: normal;
+    font-family: 'Rubik', sans-serif;
+    line-height: 21.33px;
+    color: rgba(24, 24, 22, 1);
+    margin-top: 24px;
+}
+.money-section-title{
+    font-weight: 400;
+    font-size: 15px;
+    font-style: normal;
+    line-height: 24px;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 0;
+}
+.list-item{
+    padding: 0;
+}
+.list-item-right{
+    padding: 0;
+    margin-left:66px;
+}
+.item{
+    list-style: none;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Inter', sans-serif;
+    line-height: 18.15px;
+    font-size: 15px;
+    color: rgba(81, 81, 81, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+.item:first-child{
+    padding-top: 0;
+}
+.title{
+    margin-left: 15px;
+}
+.tra-blog{
+    padding-left: 14px;
+}
+.trade-image, .history-image{
+    width: 100%;
+}
+.trade-heading, .tra-heading{
+    font-weight: 500;
+    font-style: normal;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    color: rgba(24, 24, 22, 1);
+    line-height: 33.11px;
+    margin: 0;
+    margin: 16px 0 15px 0;
+}
+.trade-title, .tra-title{
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Inter', sans-serif;
+    line-height: 18.15px;
+    font-size: 15px;
+    color: rgba(81, 81, 81, 1);
+    padding: 0 0 25px 0;
+    margin-top: 0;
+}
+.trade-button, .tra-button{
+    padding: 17px 34px;
+    background-color: #FFB801;
+    color: white;
+    border-radius: 10px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 16px;
+    line-height:18.96px;
+    text-decoration: none;
+    border: 2px solid #FFB801;
+    transition: all 0.5s ease-in-out;
+}
+.tra-button:hover {
+    background-color: #c99300;
+    border: 2px solid #c99300;
+    transition: all 0.5s ease-in-out;
+}
+.trade-button:hover {
+    background-color: #c99300;
+    border: 2px solid #c99300;
+    transition: all 0.5s ease-in-out;
+}
+.market-analysis-heading{
+    padding: 44px 0 30px 0;
+}
+.analysis-blog {
+    padding: 0px 0 0px 30px;
+}
+.analysis-heading {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+    font-family: 'Rubik', sans-serif;
+    color:rgba(24, 24, 22, 1);
+    line-height: 21.33px;
+}
+.analysis-title{
+    font-size: 15px;
+    font-style: normal;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+}
+.market-analysis-list-item{
+    padding: 0;
+    margin: 0;
+}
+.market-analysis-item{
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Inter', sans-serif;
+    line-height: 18.15px;
+    font-size: 15px;
+    color: rgba(81, 81, 81, 1);
+    list-style: none;
+    position: relative;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.market-analysis-item::before{
+    position: absolute;
+    content: '';
+    height: 8px;
+    width: 8px;
+    background-color: #FFB801;
+    border-radius: 10px;
+    left: -6%;
+    top: 27%;
+}
+tr td table tr .djfjdskf{
+    max-width: 50%;
+}
+.content-list {
+    margin: 0;
+    padding: 10px 0 30px 0;
+
+}
+.content {
+    font-size: 15px;
+    color: #585454;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 18px;
+    position: relative;
+    list-style: none;
+    padding-left: 20px;
+}
+.new--item{
+    font-size: 15px;
+    color: #585454;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 18px;
+    position: relative;
+    list-style: none;
+    padding-left: 20px;
+}
+.check-image {
+    position: absolute;
+    left: -1%;
+}
+.menu--item{
+    margin: 0;
+    padding: 10px 0 30px 0;
+}
+.content::before{
+    content: '';
+    position: absolute;
+    height: 8px;
+    width: 8px;
+    background-color: #FFB801;
+    border-radius: 10px;
+    left: 0px;
+    top: 6px;
+}
