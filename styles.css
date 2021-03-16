@@ -365,3 +365,10 @@ tr td table tr .djfjdskf{
     left: 0px;
     top: 6px;
 }
+
+table thead tr td h1{
+    text-align: right;
+}
+.f{
+    text-align: center;
+}
