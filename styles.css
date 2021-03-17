@@ -420,4 +420,10 @@ table.invoice-header {
         width: 190px;
         height: auto;
     }
+    .analysis-blog {
+        padding: 0px 0 0px 7px;
+    }
+    .market-analysis-item{
+        margin-top: 8px;
+    }
 }
