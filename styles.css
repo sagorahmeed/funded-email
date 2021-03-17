@@ -273,11 +273,15 @@ h1, h2, h3, h4, h5, h6, p, a {
     border: 2px solid #c99300;
     transition: all 0.5s ease-in-out;
 }
+.market-analysis-image{
+    width: 100%;
+}
 .market-analysis-heading{
     padding: 44px 0 30px 0;
 }
 .analysis-blog {
     padding: 0px 0 0px 30px;
+    width: 50%;
 }
 .analysis-heading {
     margin: 0;
