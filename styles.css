@@ -379,6 +379,28 @@ tr td table tr .djfjdskf{
     border-top-left-radius:10px;
     border-top-right-radius: 10px;
     padding: 0 30px;
+    height: 129px;
+}
+.invoice-top-image{
+    width: 152px;
+    height: 27px;
+}
+.invoice-top-heading{
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    line-height: 47.7px;
+    color: rgba(255, 255, 255, 1);
+}
+.invoice-top-title{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 15.73px;
+    text-align: right;
+    color: rgba(255, 255, 255, 1);
 }
 .info-heading{
     width: 100%;
@@ -397,7 +419,7 @@ tr td table tr .djfjdskf{
     content: '';
     position: absolute;
     border: 1px solid #A6B1BE;
-    width: 79%;
+    width: 80%;
     bottom: -50%;
     left: 5%;
 }
@@ -431,7 +453,7 @@ tr td table tr .djfjdskf{
     content: '';
     position: absolute;
     border: 1px solid #A6B1BE;
-    width: 88%;
+    width: 90%;
     bottom: -3%;
     left: 5%;
 }
@@ -452,4 +474,33 @@ tr td table tr .djfjdskf{
 }
 .prod-cnt-desc{
     padding: 0 30px;
+    position: relative;
+}
+.prod-left{
+    position: absolute;
+    right: 36%;
+    top: 26%;
+}
+.prod-left h1{
+    margin: 0;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19.36px;
+    font-family: 'Inter', sans-serif;
+    color: rgba(24, 24, 22, 1);
+}
+.prod-left h1:last-child{
+    padding-top: 14px;
+}
+.prod-right p{
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 18.15px;
+    font-style: italic;
+    padding-top: 11px;
+}
+.prod-right p:last-child{
+    padding-top: 0px;
 }
