@@ -379,7 +379,7 @@ tr td table tr .djfjdskf {
     top: 6px;
 }
 .invoice-card {
-    border: 1px solid gray;
+    border: 1px solid rgba(166, 177, 190, 1);
     width: 100%;
     border-radius: 10px;
 }
@@ -434,6 +434,7 @@ tr td table tr .djfjdskf {
 .invoice-header {
     width: 100%;
     padding: 0 30px;
+    padding-bottom: 15px;
 }
 .info-title {
     margin: 0;
@@ -569,6 +570,7 @@ tr td table tr .djfjdskf {
     font-weight: 300;
     color: rgba(81, 81, 81, 1);
     font-family: "Inter", sans-serif;
+    padding-top: 2px;
 }
 .pay-card-info {
     position: absolute;
